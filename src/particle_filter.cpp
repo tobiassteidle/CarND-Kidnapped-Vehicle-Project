@@ -31,9 +31,9 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
   const double std_theta = std[2];
   
   // create distributions for x, y, theta
-  normal_distribution<double> dist_x(x, std_x);
-  normal_distribution<double> dist_y(y, std_y);
-  normal_distribution<double> dist_theta(theta, std_theta);
+  normal_distribution<double> dist_x(0, std_x);
+  normal_distribution<double> dist_y(0, std_y);
+  normal_distribution<double> dist_theta(0, std_theta);
   
   for(int i = 0; i < num_particles; i++) {
     // create particle
