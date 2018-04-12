@@ -26,7 +26,6 @@ Alternatively some scripts have been included to streamline this process, these 
 3. ./run.sh
 
 ## Video
-https://youtu.be/5L3M6UYhquk
 [![Kidnapped Vehicle](http://img.youtube.com/vi/5L3M6UYhquk/0.jpg)](http://www.youtube.com/watch?v=5L3M6UYhquk "Kidnapped Vehicle")
 
 
